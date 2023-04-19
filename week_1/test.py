@@ -16,7 +16,7 @@ while True:
 favorite_color = colors[answer_1-1]
 
 #얼굴형
-colors = ["빨강", "노랑", "파랑", "초록", "보라",] #색깔 추가
+colors = ["달걀", "둥근", "파랑", "초록", "보라",] #색깔 추가
 for i, color in enumerate(colors):
     print(f"{i+1}. {color}")
 
