@@ -16,13 +16,13 @@ while True:
 favorite_color = colors[answer_1-1]
 
 #얼굴형
-colors = ["달걀", "둥근", "파랑", "초록", "보라",] #색깔 추가
-for i, color in enumerate(colors):
+face_share = ["둥근", "역삼각형", "계란", "긴얼굴", "사각형"]
+for i, face in enumerate(face_share):
     print(f"{i+1}. {color}")
 
 while True:
     try:
-        answer_1 = int(input("좋아하는 색깔을 선택해주세요: "))
+        answer_1 = int(input("자신의 얼굴형을 선택해주세요: "))
         if 1 <= answer_1 <= len(colors):
             break
         else:
