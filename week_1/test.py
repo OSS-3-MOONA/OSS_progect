@@ -1,11 +1,11 @@
-#펄스널 컬러
-colors = ["빨강", "노랑", "파랑", "초록", "보라",] #색깔 추가
+#퍼스널 컬러
+colors = ["빨강", "노랑", "파랑", "초록", "보라"] #색깔 추가
 for i, color in enumerate(colors):
     print(f"{i+1}. {color}")
 
 while True:
     try:
-        answer_1 = int(input("좋아하는 색깔을 선택해주세요: "))
+        answer_1 = int(input("자신의 퍼스널 컬러를 선택해주세요: "))
         if 1 <= answer_1 <= len(colors):
             break
         else:
@@ -17,8 +17,8 @@ favorite_color = colors[answer_1-1]
 
 #얼굴형
 face_share = ["둥근", "역삼각형", "계란", "긴얼굴", "사각형"]
-for i, face in enumerate(face_share):
-    print(f"{i+1}. {face}")
+for j, face in enumerate(face_share):
+    print(f"{j+1}. {face}")
 
 while True:
     try:
@@ -34,13 +34,13 @@ my_face = face_share[answer_2-1]
 
 #체형
 body_share = ["삼각형", "직사각형", "역삼각형", "모래시계형", "원형"] 
-for i, body in enumerate(body_share):
-    print(f"{i+1}. {body_share}")
+for n, body in enumerate(body_share):
+    print(f"{n+1}. {body}")
 
 while True:
     try:
         answer_3 = int(input("자신의 체형을 선택해주세요: "))
-        if 1 <= answer_3 <= len(colors):
+        if 1 <= answer_3 <= len(body_share):
             break
         else:
             print("잘못된 선택입니다.")
@@ -48,3 +48,7 @@ while True:
         print("숫자를 입력해주세요.")
 
 my_body = body_share[answer_3-1]
+
+
+if favorite_color==colors[0] and my_face == face_share[0]: 
+    print("하이")
