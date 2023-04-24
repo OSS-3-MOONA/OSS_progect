@@ -50,5 +50,66 @@ while True:
 my_body = body_share[answer_3-1]
 
 
-if favorite_color==colors[0] and my_face == face_share[0]: 
-    print("하이")
+if favorite_color==colors[0] 
+    if my_face == face_share[0]: 
+        if my_body==body_share[0]:
+            #빨강/ 삼각형/ 삼각형
+            print("ㅇㅅㅇ")
+        elif my_body==body_share[1]:
+            print("moo")
+        elif my_body==body_share[2]:
+            print("gg")
+        elif my_body==body_share[3]:
+            print("tt")
+        elif my_body==body_share[4]:
+            print("qqwe")
+    elif my_face == face_share[1]: 
+        if my_body==body_share[0]:
+
+            print("ㅇㅅㅇ")
+        elif my_body==body_share[1]:
+            print("moo")
+        elif my_body==body_share[2]:
+            print("gg")
+        elif my_body==body_share[3]:
+            print("tt")
+        elif my_body==body_share[4]:
+            print("qqwe")
+    elif my_face == face_share[2]: 
+        if my_body==body_share[0]:
+
+            print("ㅇㅅㅇ")
+        elif my_body==body_share[1]:
+            print("moo")
+        elif my_body==body_share[2]:
+            print("gg")
+        elif my_body==body_share[3]:
+            print("tt")
+        elif my_body==body_share[4]:
+            print("qqwe")
+    elif my_face == face_share[3]: 
+        if my_body==body_share[0]:
+
+            print("ㅇㅅㅇ")
+        elif my_body==body_share[1]:
+            print("moo")
+        elif my_body==body_share[2]:
+            print("gg")
+        elif my_body==body_share[3]:
+            print("tt")
+        elif my_body==body_share[4]:
+            print("qqwe")
+    elif my_face == face_share[4]: 
+        if my_body==body_share[0]:
+
+            print("ㅇㅅㅇ")
+        elif my_body==body_share[1]:
+            print("moo")
+        elif my_body==body_share[2]:
+            print("gg")
+        elif my_body==body_share[3]:
+            print("tt")
+        elif my_body==body_share[4]:
+            print("qqwe")
+    
+
