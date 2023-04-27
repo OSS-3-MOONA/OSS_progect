@@ -1,3 +1,8 @@
+
+
+#홈페이지 불러오기
+import webbrowser
+
 #퍼스널 컬러
 colors = ["빨강", "노랑", "파랑", "초록", "보라"] #색깔 추가
 for i, color in enumerate(colors):
@@ -50,11 +55,11 @@ while True:
 my_body = body_share[answer_3-1]
 
 
-if favorite_color==colors[0] 
+if favorite_color==colors[0]:
     if my_face == face_share[0]: 
         if my_body==body_share[0]:
             #빨강/ 삼각형/ 삼각형
-            print("ㅇㅅㅇ")
+            webbrowser.open("https://lily.sunmoon.ac.kr/Page2/Story/Notice_view.aspx?no=38603&cp=1")
         elif my_body==body_share[1]:
             print("moo")
         elif my_body==body_share[2]:
