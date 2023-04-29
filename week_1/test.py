@@ -61,7 +61,7 @@ if favorite_color==colors[0]:
             #빨강/ 삼각형/ 삼각형
             webbrowser.open("https://lily.sunmoon.ac.kr/Page2/Story/Notice_view.aspx?no=38603&cp=1")
         elif my_body==body_share[1]:
-            print("moo")
+            webbrowser.open("https://www.musinsa.com/app/")
         elif my_body==body_share[2]:
             print("gg")
         elif my_body==body_share[3]:
