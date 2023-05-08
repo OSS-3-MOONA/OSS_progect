@@ -63,7 +63,7 @@ if favorite_color==colors[0]:
         elif my_body==body_share[1]:
             print("moo0000")
         elif my_body==body_share[2]:
-            print("gg")
+            print("ggㅇㅇㅇ")
         elif my_body==body_share[3]:
             print("tt")
         elif my_body==body_share[4]:
